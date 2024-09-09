@@ -8,6 +8,7 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "I LOVE YOU TOO!!!";
   gif.src = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTZrdW11eGl3YjI1YWVkMTNyOXExcW9taWR3MHA4aTU5eDJwYXR0eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9G0AdBbVrkV3O/giphy.gif";
   noBtn.style.display = "none"; // Hide the No button
+  yesBtn.style.display = "none"; // Hide the Yes button
 });
 
 // Function to move the No button to a random position within the viewport
@@ -29,5 +30,6 @@ function moveNoBtn() {
 
 // Move the No button every 500 milliseconds (adjust the time as needed)
 setInterval(moveNoBtn, 500);
+
 
 
